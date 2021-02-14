@@ -1,4 +1,9 @@
 import logo from './logo.svg';
+import {BrowserRouter as Router, Route} from "react-router-dom";
+// import home from "./Pages/home";
+// import myJob from "./Pages/myJob";
+// import contact from "./Pages/contact";
+
 import './App.css';
 
 function App() {
@@ -18,6 +23,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <Router>
+        <Route exact path="/"> <home /> </Route>
+        <Route exact path="/contact"> <contact /> </Route>
+        <Route exact path="/myJob"> <myJob /> </Route>
+      </Router>
     </div>
   );
 }
