@@ -1,0 +1,38 @@
+.navbar::before {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar {
+    background-color: #353338;
+}
+
+h1, h6{
+    font-family: 'Kanit', sans-serif;
+}
+
+.myflag{
+    opacity: 50%;
+    margin: 5px;
+    text-decoration: none;
+}
+.myflag:hover{
+    opacity: 100%;
+
+}
+
+.nav-link{
+    /* margin-left: 0%;
+    margin-right: 0%; */
+    padding: 8px;
+    color: #B9B3C4; 
+}
+.d-block{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+     
+  }
+
+ 

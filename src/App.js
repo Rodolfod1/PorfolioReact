@@ -3,12 +3,14 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 // import home from "./Pages/home";
 // import myJob from "./Pages/myJob";
 // import contact from "./Pages/contact";
+import Navbar from "./components/Navbar"
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -23,6 +25,7 @@ function App() {
           Learn React
         </a>
       </header>
+      
       <Router>
         <Route exact path="/"> <home /> </Route>
         <Route exact path="/contact"> <contact /> </Route>
