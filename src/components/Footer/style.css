@@ -4,21 +4,22 @@
    text-align: center;
    
     left:0px;
-    bottom:10px;
+    /* bottom:10px; */
     width: 100%;
     margin-top: 20px;
+    background-color: transparent;
    
   
   }
-  .footer .copyright {
+  .copyright {
     font-size:medium;
-    color:#2d363680 ;
+    color: #B9B3C4 ;
   
   }
-  .footer .fab {
+  .fab {
     margin: 3px 10px 3px 10px;
     text-align: center;
-    color:#2d363680 ;
+    color: #B9B3C4 ;
   
   }
   

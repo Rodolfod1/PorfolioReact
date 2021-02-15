@@ -1,11 +1,23 @@
 import React from 'react'
-import Wrapper from "../components/Wrapper"
+
+import logo from '../logo.svg';
 
 const home = () => {
     return (
-        <div>
-            
-        </div>
+        <header className="App-wrapper">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     )
 }
 
