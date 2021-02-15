@@ -8,14 +8,19 @@
     background-color: #353338;
 }
 
-h1, h6{
+h1{
     font-family: 'Kanit', sans-serif;
+    font-size: 18pt ;
 }
-
+h6{
+    font-family: 'Kanit', sans-serif;
+    font-size: 10pt ;
+}
 .myflag{
     opacity: 50%;
     margin: 5px;
     text-decoration: none;
+    font-size: 9pt;
 }
 .myflag:hover{
     opacity: 100%;
@@ -23,8 +28,7 @@ h1, h6{
 }
 
 .nav-link{
-    /* margin-left: 0%;
-    margin-right: 0%; */
+    
     padding: 8px;
     color: #B9B3C4; 
 }
@@ -34,5 +38,15 @@ h1, h6{
     width: auto;
      
   }
-
+.navbar-brand {
+    margin-left: 40vmax;
+  
+}
  
+
+@media screen and (max-width:1024px) {
+    .navbar-brand {
+        margin-left: 9vmax;
+      
+    }
+ }
