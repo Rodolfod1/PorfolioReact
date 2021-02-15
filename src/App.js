@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 // import myJob from "./Pages/myJob";
 // import contact from "./Pages/contact";
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 
 import './App.css';
 
@@ -31,6 +32,7 @@ function App() {
         <Route exact path="/contact"> <contact /> </Route>
         <Route exact path="/myJob"> <myJob /> </Route>
       </Router>
+      <Footer />
     </div>
   );
 }
