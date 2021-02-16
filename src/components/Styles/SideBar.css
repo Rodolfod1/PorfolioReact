@@ -1,0 +1,24 @@
+.submenu {
+    margin: 5px;
+    padding: 0;
+    }
+
+ .my-menu{
+     background-color:#3D4F78 ;
+     border: none;
+ }
+ i {
+  color: #B9B3C4;
+ }   
+@media screen and (max-width:720px) {
+
+    .submenu a  {
+        display: inline  
+        }
+   .submenu .my-menu {
+    position: relative;
+    margin-right: 80px;
+    
+    
+   }
+ }

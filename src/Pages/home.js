@@ -1,10 +1,12 @@
 import React from 'react'
-
+import HomeItems from "../components/HomeItems"
 import logo from '../logo.svg';
 
 const home = () => {
     return (
+        
         <header className="App-wrapper">
+          <HomeItems />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
